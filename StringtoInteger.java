@@ -38,7 +38,7 @@ public class reverse_integer {
 		System.out.println(myAtoi("1000000003232323")); // output: 2147483647
 		System.out.println(myAtoi("+12a233")); // output: 12
 		System.out.println(myAtoi("+-23")); // output: 0
-		System.out.println(myAtoi("-123")); // output: -321
+		System.out.println(myAtoi("-123")); // output: -123
 
 	}
 }
