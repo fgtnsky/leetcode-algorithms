@@ -12,7 +12,7 @@ convert("PAYPALISHIRING", 3) should return "PAHNAPLSIIGYIR".
 **************************************************************************************************/
 		
 public class ZigZag_Conversion {
-	   public static String convert(String s, int numRows){
+	   public static String convert(String s, int numRows){  // O(n) = O(numRows) * O(periods)
 	        if(numRows == 1) return s;		   // return original string if numRows = 1
 			String zig = ""; // zig is our return string
 			// the zigzag pattern repeated after a period, from the example above, pattern repeated
