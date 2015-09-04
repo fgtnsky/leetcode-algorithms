@@ -15,7 +15,7 @@ You could also try reversing an integer. However, if you have solved the problem
 There is a more generic way of solving this problem.
 **************************************************************************************************/
 
-public class Palindrome_Number {
+public class Palindrome_Number {    //  O(log(n))
 	public static boolean isPalindrome(int x) {
 		if(x < 0) return false;
 		else if(x < 10) return true;
