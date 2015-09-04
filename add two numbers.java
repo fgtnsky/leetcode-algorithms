@@ -34,7 +34,7 @@ public class AddTwoNumbers {
 		
 	}
 	
-	public static ListNode addTwoNumbers(ListNode l1, ListNode l2){
+	public static ListNode addTwoNumbers(ListNode l1, ListNode l2){   //O(max(n1,n2))
 		ListNode start = new ListNode(0);
 		ListNode pre = start;
 		ListNode lastNode = null;
