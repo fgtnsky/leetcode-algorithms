@@ -8,7 +8,7 @@ Example2: x = -123, return -321
 **************************************************************************************************/
 
 		
-public class reverse_integer {
+public class reverse_integer {   //O(n) as s.reverse() costs O(n)
 	public static int reverse(int x){
 		boolean neg = (x<0)? true:false;
 		x = Math.abs(x);
