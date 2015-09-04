@@ -22,7 +22,7 @@ public class twoSum_2 {
 		// output: index1 = 1, index2 = 2
 	}
 	
-    public static int[] twoSum(int[] numbers, int target) {
+    public static int[] twoSum(int[] numbers, int target) {  // O(n)
         
     	HashMap<Integer,Integer> map = new HashMap<Integer,Integer>();
     	for(int i=0; i< numbers.length; i++){
