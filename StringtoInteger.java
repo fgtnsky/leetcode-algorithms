@@ -8,7 +8,7 @@ Example2: x = -123, return -321
 **************************************************************************************************/
 
 		
-public class reverse_integer {
+public class reverse_integer {  //O(n)
     public static int myAtoi(String x){
 		if(x.length()<1 | x== null) return 0;
 		x = x.trim(); // delete white space
