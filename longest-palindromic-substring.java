@@ -4,7 +4,7 @@ Given a string S, find the longest palindromic substring in S. You may assume th
 **************************************************************************************************/
 
 
-public class LongestPalindromicSubstring {
+public class LongestPalindromicSubstring {   //O(n)
     public static String longestPalindrome(String s) {   	
         int lp = 1;  // lp is the longest Palindromic substring length     
         int left = 0;  // the most left index for the substring now
