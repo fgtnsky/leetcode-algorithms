@@ -3,7 +3,7 @@
 Merge two sorted linked lists and return it as a new list. The new list should be made by splicing together the nodes of the first two lists.
 **************************************************************************************************/
 
-public class Merge_Two_Sorted_List {
+public class Merge_Two_Sorted_List {       //O(n1+n2), here n_i is the length of the i^th list.
 	 public static ListNode mergeTwoLists(ListNode l1, ListNode l2) {
 		 ListNode res = new ListNode(0);
 		 ListNode head = res;
