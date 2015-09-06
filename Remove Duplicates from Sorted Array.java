@@ -13,30 +13,17 @@ Your function should return length = 2, with the first two elements of nums bein
 **************************************************************************************************/
 	   public static int removeDuplicates(int[] nums) {
 		   if(nums.length==0) return 0;
-		   int pre = 1, last = 1;
-		   int len = nums.length;
-		   for(int i=1;i<len;i++){
-			   if(nums[i]==nums[i-1]) 
-				   last++;
-			   else {
-				   nums[pre] = nums[i];
-				   pre++;
-				   last++;
-			   }
-				   
+		   int pre = 1;
+		   for(int i=1;i<nums.length;i++){
+			   if(nums[i]!=nums[i-1])
+				   nums[pre++] = nums[i];			   
 		   }
 		   return pre;
 	    }
 	   
 	   public static void main(String[] args){
-		   int[] test = {3,3,4,4,4};
-		   System.out.println(removeDuplicates(test)); // output: 2
+		   int[] test = {3,3,4,4,4,5};
+		   System.out.println(removeDuplicates(test)); // output: 3
 	   }
 
 }
-
-
-
-
-
-
