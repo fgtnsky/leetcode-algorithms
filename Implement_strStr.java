@@ -1,8 +1,8 @@
 
 /**************************************************************************************************
-Reverse bits of a given 32 bits unsigned integer.
+Implement strStr().
 
-For example, given input 43261596 (represented in binary as 00000010100101000001111010011100), return 964176192 (represented in binary as 00111001011110000010100101000000).
+Returns the index of the first occurrence of needle in haystack, or -1 if needle is not part of haystack.
 *************************************************************************************************/
 
 public class Implement_strStr { //apply KMP, O(n+m)
