@@ -21,6 +21,6 @@ public class House_Robber { // DP, O(n)
     }
     public static void main(String[] args){
     	int[] res = new int[] {1,4,7,9,11,8,3};
-    	System.out.println(rob(res));
+    	System.out.println(rob(res)); //output: 22
 	}
 }
