@@ -28,6 +28,6 @@ public class Multiply_Strings {
     }
     
     public static void main(String[] args){
-    	System.out.println(multiply("2","3"));
+    	System.out.println(multiply("12","12")); // 144
     }
 }
