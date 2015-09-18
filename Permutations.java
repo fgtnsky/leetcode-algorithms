@@ -2,6 +2,8 @@
 
 import java.util.*;
 public class Permutations {
+	
+	// method 1:
     public static List<List<Integer>> permute(int[] nums) {
 
 	    List<List<Integer>> res = new LinkedList();
@@ -43,6 +45,7 @@ public class Permutations {
     	return res;
     }
     
+    // method 2:
     public static List<List<Integer>> permute2(int[] num) {
         LinkedList<List<Integer>> res = new LinkedList<List<Integer>>();
         res.add(new ArrayList<Integer>());
@@ -63,6 +66,9 @@ public class Permutations {
     public static void main(String[] args){
     	System.out.println(permute(new int[] {1,2,3}));
     	System.out.println(permute2(new int[] {1,2,3}));
+    	// [[1, 2, 3], [1, 3, 2], [2, 1, 3], [2, 3, 1], [3, 1, 2], [3, 2, 1]]
+        // [[3, 2, 1], [2, 3, 1], [2, 1, 3], [3, 1, 2], [1, 3, 2], [1, 2, 3]]
+
 
     }
 }
